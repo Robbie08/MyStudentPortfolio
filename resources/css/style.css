@@ -143,7 +143,7 @@ h2:after {
 /* Add some padding inside the card container */
 .container {
     padding: 20px 16px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .badge{
@@ -401,16 +401,16 @@ footer {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
-.ion-social-facebook:hover {
+.ion-logo-facebook:hover {
     color:#3b5998;
 }
-.ion-social-twitter:hover {
-    color:#1da1f2;
+.ion-logo-github:hover {
+    color:#4183C4;
 }
-.ion-social-googleplus:hover {
-    color: #db4437;
+.ion-logo-linkedin:hover {
+    color: #0275b5;
 }
-.ion-social-instagram:hover {
+.ion-logo-instagram:hover {
     color: #ffdc7d;
 }
 footer p {
@@ -419,4 +419,3 @@ footer p {
     margin-top:20px;
 }
 
-/*------------
