@@ -234,7 +234,7 @@ input[type=submit] {
 .btn-full:visited,
 input[type=submit] {
     background: #02b875; 
-    border: 1px solid #02b875;
+    border: 1px solid #018655;
     color: #fff; 
     margin-right: 15px;
 }
@@ -249,7 +249,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #00ab6b;
+    background-color: #018655;
 }
 
 
@@ -263,7 +263,7 @@ input[type=submit]:active {
 .btn-full:hover,
 .btn-full:active {
     
-    border: 1px solid #00ab6b; 
+    border: 1px solid #018655; 
 }
 
 .btn-ghost:hover,
