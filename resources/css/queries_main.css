@@ -15,9 +15,6 @@
     .section-projects a {
         visibility: hidden;
     }
-    
- 
-
 }
 
 /*-Small Tablets - Big Tablets: from 768 - 1023px-*/
@@ -30,13 +27,26 @@
         margin-left: 10%;
     }
     
-    .powered-by {padding-top: 10px;}
-    
-    
-    
+    .powered-by {padding-top: 10px;} 
 }
 /*-Small phones - Small Tablets: from 481 - 767px-*/
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    section { padding: 38px 0;}
+    .row,
+    .hero-text-box {padding: 0 4%; }
+    .col {width: 100%; }
+    .main-nav { display: none;}
+    
+        
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+    .long-copy {
+        width:100%;
+        margin-left: 0%;
+    }
     
 }
 
