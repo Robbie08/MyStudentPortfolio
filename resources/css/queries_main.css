@@ -7,6 +7,7 @@
         width: 100%;
         padding: 0 2%;
 
+        
     }
     .row {
         padding: 0 2%;
@@ -48,10 +49,18 @@
         margin-left: 0%;
     }
     
+    .badge {
+        padding: 5px;
+        margin: 5px;
+        overflow-wrap: normal;
+        overflow-wrap: break-word;
+    }
+    
 }
 
 /*-Small phones: from 0 - 480px-*/
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0;}
+    
     
 }

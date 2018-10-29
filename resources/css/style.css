@@ -389,6 +389,7 @@ header {
 
 
 
+
 /*-------------FOOTER-----------*/
 footer {
     background-color:#00ab6b; 
@@ -465,3 +466,30 @@ footer p {
     margin-top:20px;
 }
 
+
+/*------------------------------------------------- */
+/* JS ANIMATIONS */
+/*--------------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    /*make it invisible*/
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+
+
+.js--wp-0,
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated {
+    opacity: 1;
+}
