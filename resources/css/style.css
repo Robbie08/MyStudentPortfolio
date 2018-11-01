@@ -379,6 +379,33 @@ header {
 .sticky .logo {display: none;}
 
 
+/*----------------About me-----------*/
+.contact-me {
+    color:#00ab6b;
+    font-size: 170%;
+}
+/* unvisited link */
+.contact-me a:link {
+    color:#00ab6b;
+    text-decoration: none;
+
+}
+
+/* visited link */
+.contact-me a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+contact-me a:hover {
+    color: #000;;
+}
+
+/* selected link */
+contact-me a:active {
+    color: blue;
+}
+
 
 
 /*--------------PROJECTS-------------*/
