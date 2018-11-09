@@ -152,7 +152,7 @@ h2:after {
 .badge{
     border: 1px solid;
     padding: 5px;
-    border-radius: 5px;
+    margin-top:2px;
     margin-right: 4px;
 }
 
@@ -171,11 +171,11 @@ h2:after {
 /*-----------PARAGRAPHS----------*/
 
 .long-copy {
-    line-height: 145%;
-    width: 70%;
+    line-height: 135%;
+    width: 75%;
     margin-left: 15%;
     margin-bottom: 50px;
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
 }
 
@@ -318,6 +318,30 @@ header {
     
 }
 
+.links {
+   
+    list-style:none;
+
+}
+
+.links a{
+    display:inline-block;
+    margin-top:1px;
+    color:#00ab6b;
+    font-size:110%;
+}
+
+.links a:link,
+.links a:visited {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+.links a:hover,
+.links a:active {
+    border-bottom: 2px solid #00ab6b;
+}
 /*Main Navi */
 .main-nav {
     float: right;
