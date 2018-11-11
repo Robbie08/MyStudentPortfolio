@@ -16,6 +16,7 @@
     .section-projects a {
         visibility: hidden;
     }
+    .
 }
 
 /*-Small Tablets - Big Tablets: from 768 - 1023px-*/
@@ -29,6 +30,12 @@
     }
     
     .powered-by {padding-top: 10px;} 
+        
+      .project-info{
+        width: 100%;
+    }
+  
+ 
 }
 /*-Small phones - Small Tablets: from 481 - 767px-*/
 @media only screen and (max-width: 767px) {
@@ -57,7 +64,20 @@
         overflow-wrap: break-word;
     }
     
- 
+    .links{
+        padding-top:-12px;
+    }
+        
+    .links li {
+        font-size:80%;
+        text-align: center;
+
+        margin: 1px;
+    }
+      .project-info{
+        display: none;
+    }
+
     
 }
     
@@ -66,7 +86,7 @@
 /*-Small phones: from 0 - 480px-*/
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0;}
-    
+
 
     .btn:link,
     .btn:visited,
