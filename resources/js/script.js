@@ -89,5 +89,21 @@ $('.js--wp-0').waypoint(function(direction) {
 
 
 /*Mobile Navigation*/
-
+$('.js--nav-icon').click(function(){
+    var nav = $('.js--main-nav');
+    var icon = $('.js--nav-icon i')
+    nav.slideToggle(200);
+    
+    /*change icon if the nav bar is open*/
+    if(icon.hasClass('ion-md-menu')){
+        icon.addClass('icon ion-md-close');
+        icon.removeClass('ion-md-menu');
+    } 
+    else {
+        icon.addClass('ion-md-menu');
+        icon.removeClass('icon ion-md-close');
+        
+    }
+    
+});
 
